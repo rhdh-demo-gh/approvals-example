@@ -8,7 +8,7 @@ metadata:
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=approvals-example'
     backstage.io/source-location: url:https://github.com/rhdh-demo-gh/approvals-example
     backstage.io/techdocs-ref: .
-    github.com/project-slug: /approvals-example
+    github.com/project-slug: rhdh-demo-gh/approvals-example
 spec:
   type: website
   system: system:default/parasol-system
