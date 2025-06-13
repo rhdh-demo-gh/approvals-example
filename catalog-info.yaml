@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: approvals-example
+  description: An example application for approvals
+  annotations:
+    backstage.io/kubernetes-id: approvals-example
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=approvals-example'
+    backstage.io/source-location: url:https://github.com//approvals-example
+    backstage.io/techdocs-ref: .
+    github.com/project-slug: /approvals-example
+spec:
+  type: website
+  system: system:default/parasol-system
+  lifecycle: dev
+  owner: user:default/evanshortiss
